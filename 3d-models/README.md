@@ -1,3 +1,8 @@
 # 3D Models
 
-This directory contains 3D models of the robot. The models are in the [STL](https://en.wikipedia.org/wiki/STL_(file_format)) format.
+This folder contains all 3D models used in the project.
+
+## Structure
+
+- `custom/` – Models designed by the team specifically for this robot (e.g., chassis, mounts, holders).
+- `downloaded/` – External models sourced from the internet (e.g., standard connectors, components).
