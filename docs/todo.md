@@ -17,14 +17,15 @@ This file tracks outstanding tasks for robot development, documentation, and sub
 
 ## Development Tasks
 
-- [ ] Incorporate new camera with last year's robot
+- [x] Incorporate new camera with last year's robot
+- [x] Write updated documentation for new camera
 
 ---
 
 ## Documentation and Git
 
 - [x] Create repo and define structure
-- [ ] Write `README.md`
+- [ ] Write new `README.md`
 - [ ] Include wiring diagrams and hardware layout in `build/`
 
 ---
@@ -39,4 +40,4 @@ This file tracks outstanding tasks for robot development, documentation, and sub
 
 ---
 
-Last updated: 2025-04-16
+Last updated: 2025-05-25
