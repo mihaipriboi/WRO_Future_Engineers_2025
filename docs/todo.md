@@ -25,19 +25,19 @@ This file tracks outstanding tasks for robot development, documentation, and sub
 ## Documentation and Git
 
 - [x] Create repo and define structure
-- [ ] Write new `README.md`
-- [ ] Include wiring diagrams and hardware layout in `build/`
+- [x] Write new `README.md`
+- [x] Include wiring diagrams and hardware layout in `build/`
 
 ---
 
 ## Submission Checklist
 
-- [ ] Record and edit final run video
-- [ ] Confirm video is uploaded and accessible
-- [ ] Ensure source code is complete and readable
-- [ ] Submit repo for national
+- [x] Record and edit final run video
+- [x] Confirm video is uploaded and accessible
+- [x] Ensure source code is complete and readable
+- [x] Submit repo for national
 - [ ] Submit repo for international
 
 ---
 
-Last updated: 2025-05-25
+Last updated: 2025-05-31
