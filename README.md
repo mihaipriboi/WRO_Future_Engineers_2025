@@ -627,7 +627,7 @@ The robot's PCB was designed using KiCad software. The PCB integrates the voltag
 | Empty PCB |
 | <img src="./images/readme/pcb-empty.png" alt="PCB empty" height="400"> | 
 | PCB |
-| <img src="./images/readme/PCB.png" alt="PCB" width="100%"> |
+| <img src="./images/readme/pcb.png" alt="PCB" width="100%"> |
 
 Where we bought the PCB: https://jlcpcb.com/
 
