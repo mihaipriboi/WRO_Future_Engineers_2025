@@ -6,12 +6,12 @@ This file tracks outstanding tasks for robot development, documentation, and sub
 
 ## Major Milestones
 
-- [ ] Finalize new chassis design
-- [ ] Prepare or print all components and assemble robot
-- [ ] Finalize the open round code
-- [ ] Finalize the obstacle round code
-- [ ] Pass all randomized challenge scenarios in testing
-- [ ] Prepare final documentation and submission materials
+- [x] Finalize new chassis design
+- [x] Prepare or print all components and assemble robot
+- [x] Finalize the open round code
+- [x] Finalize the obstacle round code
+- [x] Pass all randomized challenge scenarios in testing
+- [x] Prepare final documentation and submission materials
 
 ---
 
@@ -36,8 +36,8 @@ This file tracks outstanding tasks for robot development, documentation, and sub
 - [x] Confirm video is uploaded and accessible
 - [x] Ensure source code is complete and readable
 - [x] Submit repo for national
-- [ ] Submit repo for international
+- [x] Submit repo for international
 
 ---
 
-Last updated: 2025-05-31
+Last updated: 2025-11-19

@@ -2,10 +2,7 @@
 
 ![Banner](./images/readme/banner.png)
 
-[![Website](https://img.shields.io/badge/Website-Visit-brightgreen?style=for-the-badge&logo=web&logoColor=white)](https://nerdvana.ro)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/nerdvanaro/)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/nerdvana_romania/)
-[![Youtube](https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white)](https://www.youtube.com/@NerdvanaRomania)
+[![Website](https://img.shields.io/badge/Website-Visit-brightgreen?style=for-the-badge&logo=web&logoColor=white)](https://nerdvana-edu.ro)
 
 This repository contains the documentation for the Nerdvana Cancer team's robot for the 2025 World Robot Olympiad Future Engineers competition. The robot, was designed and built by a team of three students.
 
@@ -14,6 +11,14 @@ This repository contains the documentation for the Nerdvana Cancer team's robot 
 * [The Challenge](#challenge)
 * [The Robot](#robot-image)
 * [Performance Video](#video)
+* [The Team's Evolution Over the Years](#team-evolution)
+  * [2022 Paula (Pretty Awesome Ultra Low Accurate robot) - International (Germany) - 8th Place](#2022-international)
+  * [2023 Paula Mia (Pretty Awesome Ultra Low Accurate Minimum Intelligence Augmentation) - National - 1st Place](#2023-national)
+  * [2023 Paula Mia 2 (Pretty Awesome Ultra Locomotion Autonomous Mapping Intelligence Augmentation) - International (Panama) - 17th Place](#2023-international)
+  * [2024 TBD - National - 1st Place](#2024-national)
+  * [2024 MOOYA (Mechanized Optimization for Outstanding Yield and Adaptation) - International (Turkey) - 7th Place](#2024-international)
+  * [2025 MOOYA* (Mechanized Optimization for Outstanding Yield and Adaptation) - National - 1st Place](#2025-national)
+  * [2025 L.A.C.H.E. (Lightweight Autonomous Carbon-Hybrid Entity) - Current Robot](#2025-international)
 * [Mobility Management](#mobility-management)
   * [Powertrain](#powertrain-mechanical)
     * [Drivetrain](#drivetrain-mechanical)
@@ -44,9 +49,7 @@ This repository contains the documentation for the Nerdvana Cancer team's robot 
   * [Step 1: Assemble the steering system](#steering-system-assembly)
   * [Step 2: Assemble the powertrain](#powertrain-assembly)
   * [Step 3: Attach the electronics](#electronics-attachment)
-  * [Step 4: Attach the wheels](#wheel-attachment)
-  * [Step 5: Final touches](#final-touches)
-  * [Step 6: Upload the code](#code-upload)
+  * [Step 4: Upload the code](#code-upload)
 * [Cost Report](#cost-report)
   * [3D Printing Costs](#3d-printing-costs)
   * [Other Parts Tested](#other-parts-tested)
@@ -67,11 +70,11 @@ This repository contains the documentation for the Nerdvana Cancer team's robot 
   <img src="./images/team/nicola-victor-teodor.jpeg" alt="Nicola Victor Teodor" width="80%">
 </p>
 
-<b>Age:</b> 18
+<b>Age:</b> 19
 
-<b>High School:</b> National College of Informatics "Tudor Vianu", Bucharest
+<b>University:</b> 1st year, Delft University of Technology
 
-<b>Description:</b> Hi! I’m Victor from Romania and this is my second WRO season. Last year I participated in the RoboMission category and this year I wanted a new challenge. I own the fact that I’m a huge nerd: from coding and robotics, to photography, cinema, music, guitar, and even Formula 1.
+<b>Description:</b> Hello! I'm Victor from Romania, and I'm very excited for my third WRO season. After competing in RoboMission, I moved to the Future Engineers category last year for a new challenge. I'm proud to say I placed 7th in the international competition in Istanbul! I've come back this year, eager to upgrade our robot and hopefully place even higher. Starting this year I took my passion for robotics into an exciting new hobby: working on the electronics for the dashboard of the TU Delft Formula Student Team. Outside of robotics, I'm a huge nerd: from coding and engineering, to photography, cinema, music, guitar, and even Formula 1.
 
 ---
 
@@ -82,9 +85,9 @@ This repository contains the documentation for the Nerdvana Cancer team's robot 
 
 <b>Age:</b> 20
 
-<b>University:</b> University of Bucharest
+<b>University:</b> 2nd year, University of Bucharest
 
-<b>Description:</b> Wassup y'all! My name is Teodor, and I love traveling and experiencing new things. Since I was a kid, I’ve always been drawn to solving puzzles, playing basketball, discovering new inventions, and thinking of creative ways to do things. Also, I know how to do a backflip. 🤠
+<b>Description:</b> Wassup y'all! My name is Teodor, and I love traveling and experiencing new things. Since I was a kid, I've always been drawn to solving puzzles, playing basketball, discovering new inventions, and thinking of creative ways to do things. Also, I know how to do a backflip. 🤠
 
 ---
 
@@ -93,9 +96,9 @@ This repository contains the documentation for the Nerdvana Cancer team's robot 
   <img src="./images/team/priboi-luca-mihai.jpg" alt="Priboi Luca Mihai" width="80%">
 </p>
 
-<b>Age:</b> 19
+<b>Age:</b> 20
 
-<b>University:</b> Politehnica University of Bucharest
+<b>University:</b> 2nd year, Politehnica University of Bucharest
 
 <b>Description:</b> Hello! I am Mihai! I've been participating at WRO since 2015 and I am very excited to be part of the Nerdvana Romania team. My academic passions are programming, physics and robotics, but I also enjoy playing the piano 🎹, whatching movies 🎬, traveling ✈️ and Formula 1 🏎️🏁.
 
@@ -145,7 +148,7 @@ Points are awarded based on performance in the challenge rounds, quality of the 
 
 Learn more about the challenge [here](https://wro-association.org/wp-content/uploads/WRO-2025-Future-Engineers-Self-Driving-Cars-General-Rules.pdf).
 
-## Photos of our robot MOOYA (Mechanized Optimization for Outstanding Yield and Adaptation) <a class="anchor" id="robot-image"></a>
+## Photos of our robot L.A.C.H.E. (Lightweight Autonomous Carbon-Hybrid Entity) <a class="anchor" id="robot-image"></a>
 
 | <img src="./images/robot/front.png" width="90%" /> | <img src="./images/robot/back.png" width="85%" /> | 
 | :--: | :--: | 
@@ -161,25 +164,136 @@ Learn more about the challenge [here](https://wro-association.org/wp-content/upl
 
 <br>
 
+# Our Team's Evolution Over the Years <a class="anchor" id="team-evolution"></a>
+
+We have been participating in the Future Engineers category since 2022, the first year it was introduced in Romania. While our team has seen some changes in membership over the years, we have consistently worked together to build on our experiences. Throughout this time, we have grown and evolved, both in our skills and in our approach to robotics, developing increasingly sophisticated strategies and designs with each competition.
+
+| <img src="./images/readme/22-national-r.jpg" width="90%" /> | <img src="./images/readme/22-national-b.jpg" width="90%" /> |
+| :--: | :--: |
+| *2022 National Competition* |
+| <img src="./images/readme/22-international-r.jpg" width="90%" /> | <img src="./images/readme/22-international-b.jpg" width="90%" /> |
+| *2022 International Competition* |
+| <img src="./images/readme/23-national-r.jpg" width="90%" /> | <img src="./images/readme/23-national-b.jpg" width="90%" /> |
+| *2023 National Competition* |
+| <img src="./images/readme/23-international-r.png" width="90%" /> | <img src="./images/readme/23-international-b.png" width="90%" /> |
+| *2023 International Competition* |
+| <img src="./images/readme/24-national-r.jpeg" width="90%" /> | <img src="./images/readme/24-national-b.jpeg" width="90%" /> |
+| *2024 National Competition* |
+| <img src="./images/readme/24-international-r.png" width="90%" /> | <img src="./images/readme/24-international-b.png" width="90%" /> |
+| *2024 International Competition* |
+| <img src="./images/readme/24-international-r.png" width="90%" /> | <img src="./images/readme/24-international-b.png" width="90%" /> |
+| *2025 National Competition* |
+| <img src="./images/readme/25-international-r.png" width="90%" /> | <img src="./images/readme/25-international-b.png" width="90%" /> |
+| *2025 International Competition* |
+
+## 2022 (No Name) - National - 1st Place <a class="anchor" id="2022-national"></a>
+Our first robot, built for the 2022 Future Engineers competition, was a large, bulky, and mostly Lego-based design, building on our previous experience with RobotMission (which was exclusively Lego Mindstorms). We experimented with adding more advanced components, including a Raspberry Pi 3 with a Pi Camera for object detection, a non-Lego motor and servo, and an Arduino to handle the electronics interface. The Raspberry Pi and Arduino communicated through a custom handshake, and we added ultrasonic sensors for wall and object detection.
+
+3D printing was used minimally, mainly to hold components in place, with some parts even “floating” on cables. Cabling was improvised, using standard-length mother-to-mother wires without much organization. Power was supplied by a small battery pack holding six AAA rechargeable cells. Overall, it was a beginner-level robot: heavy, slow, and cumbersome, with limited processing power and a program that was challenging to run efficiently. At this stage, it did not yet have a name, unlike our later tradition of giving each robot an identity.
+
+## 2022 Paula (Pretty Awesome Ultra Low Accurate robot) - International (Germany) - 8th Place <a class="anchor" id="2022-international"></a>
+The idea was mostly the same as our first robot: a Lego-heavy build, but much sturdier than the flimsy predecessor. Electronics were upgraded with a faster Arduino Nano Every, and we added another ultrasonic sensor at the front for wall detection going forward, along with a bigger, stronger servo. The steering system was still imprecise, the motor remained slow, and cables were everywhere (classic “spaghetti style”).
+
+Perhaps the biggest change was the addition of an MPU6050 gyro, which significantly improved driving straight and performing precise maneuvers, a component we would keep in our designs going forward (though we later found even better options).
+
+Despite the imperfections, with a lot of hard work, some fair bit of luck, and sheer motivation, we managed to rank 8th place. Looking back, as we would see in the following year, the other teams were just as inexperienced, but learning quickly, a reminder that Future Engineers is as much about growth as competition.
+
+## 2023 Paula Mia (Pretty Awesome Ultra Low Accurate Minimum Intelligence Augmentation) - National - 1st Place <a class="anchor" id="2023-national"></a>
+This robot was a major tipping point for us. The base and powertrain were still Lego, but nothing like before. They were rigid, smaller, and efficient, using only what was necessary. Mechanically, this is probably my favorite robot, and the most distinct one.
+
+We implemented an AWD system with three differentials (front, back, and a middle differential actuated directly by the motor), which was bigger, more powerful, and faster than before. The camera was upgraded to a PixyCam, removing the need for the Raspberry Pi and allowing the Arduino to handle the input from the trained camera. Crucially, we added two cameras at angles, giving us large coverage of the map.
+
+Electrically, this was a huge leap. We moved from messy cables everywhere to a prototyping board that organized all components, with dedicated, custom-made cables to reach detached components. We also added small but useful features: a display to see data when not connected to a laptop, and a LiPo battery (larger capacity, higher voltage, lighter, smaller, and easily swappable).
+
+Steering angle was still quite bad, and the code was complicated, messy, and hardly consistent, but the AWD system solved a major issue of losing power in turns. We also upgraded the gyro to a BMI088, which we still use today. Overall, smaller than before but still not tiny, this robot showed a significant evolution in mechanical design, electronics, and vision, laying the foundation for our future builds.
+
+## 2023 Paula Mia 2 (Pretty Awesome Ultra Locomotion Autonomous Mapping Intelligence Augmentation) - International (Panama) - 17th Place <a class="anchor" id="2023-international"></a>
+This robot brought major changes to our design. The frame was now fully 3D-printed, replacing the big, flexible Lego structure with a monocoque that was lighter, stiffer, and more compact. However, the wheels, differential, and steering system were still Lego, as printing such small components proved too brittle, introduced friction, and reduced precision (not that Lego is precise anyway).
+
+We experimented with a 360° LiDAR, which in theory allowed us to see all walls and obstacles from any angle at any time. Our main programmer, Teo, wrote brilliant code for detecting them consistently and efficiently. The large LiDAR and its height limitations forced compromises: no AWD system this time, as fitting it alongside the LiDAR was impossible. We also reduced to a single camera, relying on the LiDAR for obstacle detection while the camera captured object color and position for tracking.
+
+Electronics were upgraded to a much faster Teensy microcontroller, offering frequencies magnitudes higher than the Arduino Nano Every. This came with compatibility challenges and sparse documentation, but we managed to make it work. Cable management finally improved, though some wires were still visible. Steering precision improved, but not dramatically.
+
+Going to Panama, we were confident, but color calibration issues due to lighting differences affected performance. The robot was inconsistent, and we managed the situation worse than we could have, resulting in 17th place. Meanwhile, other teams had advanced significantly with brilliant solutions we hadn't considered.
+
+Despite the setback, this experience reinforced the essence of Future Engineers: learning, communicating, and sharing knowledge. We gained as much as we could, returned home, and immediately started designing a new, better robot, determined to surpass everything we had built before.
+
+## 2024 TBD - National - 1st Place <a class="anchor" id="2024-national"></a>
+Oops! We decided to hold off on naming our best robot yet, which resulted in forgetting to give it a proper name at the national competition :). This robot represented the culmination of everything we had learned over the previous two long (at least it felt like it) years in Future Engineers.
+
+Design and mechanics: Lego was minimal, just for mounting the big wheels (which we had been using for a while and saw no reason to change) and the differential (still for friction reasons). Everything else was 3D-printed, modular, and lightweight, made from translucent yellow PLA, our club color. It followed the trend: smaller, lighter, faster, and fully visible, no hidden parts, random Lego pieces, oversized LiDARs, or messy cables.
+
+Electronics and control: We returned to Arduino for better documentation and integration (though that model had firmware issues and could break easily. One could hope!). The microcontroller was an Arduino ESP32 Nano, providing speed and wireless programming capabilities (though we ended up sticking with wired uploading due to web app limitations).
+
+Vision and sensing: We upgraded from the PixyCam to an OpenMV camera, programmable in Python, supporting object detection with machine learning, fine-tuned resolution, FPS, and exposure settings. Distance from cubes and walls was now derived directly from the camera, eliminating the need for distance sensors.
+
+Steering and performance: We built a custom parallelogram steering system, simple but effective. But, with large wheels, a faster motor, and reduced weight, high-speed corners caused the front wheels to skid. To solve this, we added weights over the front of the body, improving friction and stability.
+
+This robot combined all the lessons from past competitions: modularity, lightness, precision, speed, and simplicity. It was the first design where everything we wanted actually came together, setting the stage for our international competition robot later that year.
+
+## 2024 MOOYA (Mechanized Optimization for Outstanding Yield and Adaptation) - International (Turkey) - 7th Place <a class="anchor" id="2024-international"></a>
+This was the same base as our previous national robot (finally with a proper name), with the focus shifting mostly to code refinement. We worked on making the program as efficient and reliable as possible, but mechanical challenges persisted.
+
+Despite being quite light (~300 g), the robot still skidded in high-speed corners. To counteract this, we added weights over the front wheels to improve grip, which caused the rear to lift during acceleration. Adding rear weight again shifted the problem to the front: a vicious cycle. Ultimately, the robot reached almost 600 g, and we also switched to PLA-CF filament (PLA with carbon fibers) for increased strength, which helped the thin steering pieces survive the competition.
+
+Performance at Istanbul ranked us 7th place. It wasn't our highest potential, and while saying we were "disappointed" might be too strong, we were definitely not fully satisfied. Skidding, imprecise steering, and camera issues from auto-exposure and other settings prevented us from performing as well as in testing. This experience highlighted exactly what we needed to focus on for the next edition: minimizing skidding, improving steering precision, and resolving camera reliability issues.
+
+## 2025 MOOYA* (Mechanized Optimization for Outstanding Yield and Adaptation) - National - 1st Place <a class="anchor" id="2025-national"></a>
+For the national competition, we used the same robot with targeted upgrades. The OpenMV camera was replaced with a newer, more powerful model, offering higher resolution, faster FPS, and additional options for object detection. Its microcontroller was upgraded as well, improving processing speed and reliability.
+
+With these changes, we were confident that previous camera issues would be resolved. Other mechanical and design aspects remained the same, allowing us to focus on fine-tuning and testing while simultaneously developing the next-generation robot. This strategy ensured we could maximize performance at the national level while preparing for the next step in our evolution.
+
+## 2025 L.A.C.H.E. (Lightweight Autonomous Carbon-Hybrid Entity) - Current Robot <a class="anchor" id="2025-international"></a>
+Following the trend of evolution, our current robot is smaller, faster, more precise, and highly custom-made. Every aspect of the design reflects lessons learned from previous years.
+
+Mechanical design:
+- Fully 3D-printed drivetrain and frame using PLA-CF for strength and rigidity.
+- Smaller Pololu wheels, chosen for better adherence, lower center of gravity, and compact size.
+- Differential and minimal Lego parts retained only where friction made it advantageous.
+- Total weight: 220 g, achieving excellent speed without any skidding.
+
+Electronics:
+- Designed a custom PCB, replacing previous prototyping boards and making the system more integrated and reliable.
+- Custom cables with snap-in headers ensure correct orientation and prevent shorts or miswiring (no more accidental mistakes like in earlier designs).
+- The camera is detached and easily repositionable along all axes (horizontal, vertical, and rotation) within seconds, avoiding hours of redesign like before.
+- Microcontroller and wiring optimized for minimal weight and maximum performance.
+
+Performance:
+- Lightweight and compact, yet mechanically robust.
+- Steering and drivetrain tuned for high-speed precision, eliminating skidding problems from previous robots.
+- The robot's modularity allows for quick component swaps and adjustments.
+
+This robot represents the culmination of four years of experience: compact, fast, lightweight, and precise. With improved electronics, optimized mechanics, and programmable vision, it's now up to us to make the best of it in the next competitions.
+
 # Mobility Management <a class="anchor" id="mobility-management"></a>
-<!-- ![Powertrain](./images/resources/powertrain.png "Powertrain") -->
 
 The robot's mobility is managed by a combination of components, including the powertrain, steering system, and chassis. These elements work together to ensure the robot's smooth and efficient movement.
 
 ## Powertrain <a class="anchor" id="powertrain-mechanical"></a>
 
-<!-- ![Powertrain - Bottom View](./images/resources/powertrain_bottom_text.png "Powertrain - Bottom View") -->
+![Powertrain](./3d-models/renders/powertrain.png "Powertrain")
+
+Between the motor and the wheels, there is a 1:2 gear ratio drivetrain that increases the speed of the robot while reducing the torque. This setup allows the robot to reach higher speeds on the track, which is essential for completing laps quickly. It's made by using a 24 teeth gear connected to the motor axle, which drives a 12 teeth gear attached to the differential input axle.
+
+![24 Teeth Spur Gear - 3D Model](./images/readme/24teeth_Spur_Gear.png "24 Teeth Spur Gear 3D piece")
+
+For the differential we used the work of @COPERNICON_359779 on printables.com https://www.printables.com/model/344703-lego-micro-diff-compact-modular-design/files under Creative Commons - Public Domain.
 
 ### Drivetrain <a class="anchor" id="drivetrain-mechanical"></a>
+![Powertrain Stripped](./3d-models/renders/powertrain-stripped.png "Powertrain Stripped")
 
-To minimize friction and thereby reduce speed loss, driving axle was made from lego pieces. We conected the motor to the driving axle using a custom 3D-printed adapter. The driving axle has a rear wheel lego differential, which allows the robot to turn smoothly. As the axle was already lego, we used lego wheels.
+To minimize friction and maximize speed, the drivetrain combines the best of our previous Lego experience with a fully custom, precision-controlled layout. Although most structural elements are now 3D-printed, we still use two Lego axles, but only to connect with the three small internal gears of our custom 3D-printed differential. This keeps the extremely low friction and reliability of Lego's small internal gears while allowing the outer housing, tolerances, and geometry to be fully customized.
+
+Because we transitioned to Pololu wheels, we designed a custom connector that converts the Lego axle interface to a 3 mm D-shaft, ensuring a perfectly centered, secure fit. This allowed us to retain the low-friction Lego internal gear system while benefiting from the superior grip, reduced weight, and lower rotational inertia of Pololu wheels.
+
+The entire drivetrain is tightly enclosed inside the chassis, which was designed around it with minimal clearance. This enclosure reduces backlash, eliminates unnecessary play, and guarantees consistent alignment of the gears and axles. Every internal sliding surface is sanded, bringing friction down to nearly zero and allowing the robot to maintain high speed without compromises in stability or precision.
+
+The result is our most efficient drivetrain yet, compact, lightweight, smooth, and engineered to take full advantage of every bit of power the motor provides.
 
 <br>
 
 **Potential Improvements**:
-- Upgrade to a stronger or more precise differential for smoother turning.
-- Test alternative materials for the Lego driving axle to reduce weight and increase durability.
-- Replace the 3D-printed adapter with a metal one to improve robustness and reliability.
+- Upgrade to a more precise metal differential for smoother turning, which would also remove the need for Lego axles.
 
 ### Motor <a class="anchor" id="motor-mechanical"></a>
 
@@ -191,33 +305,40 @@ To minimize friction and thereby reduce speed loss, driving axle was made from l
     <td width="50%" style="text-align: left; vertical-align: top;">
       <h3>Specifications:</h3>
       <li>Voltage: 12V</li>
-      <li>Gear Ratio: 1:50</li>
-      <li>Speed: 650 ± 31% rpm</li>
-      <li>Torque: 0.67 ± kg·cm</li>
+      <li>Gear Ratio: 30:1</li>
+      <li>Speed: 1100 ± 31% rpm</li>
+      <li>Torque: 0.39 ± kg·cm</li>
       <li>Weight: 9.5g</li>
       </li>
     </td>
   </tr>
 </table>
 
-Following an evaluation of different motors, we settled on a micro DC gear motor on which we attached a magnetic encoder. This motor was selected for its lightweight and compact design, which stands out among others with comparable output. Additionally, the magnetic encoder offers greater precision than its optical counterpart. We secured the motor to the chassis using a custom 3D-printed holder.
+Following an evaluation of different motors, we settled on a micro DC gear motor on which we attached a magnetic encoder. This motor was selected for its lightweight and compact design, which stands out among others with comparable output. Additionally, the magnetic encoder offers greater precision than its optical counterpart. We secured the motor to the chassis using a Pololu white plastic mounting bracket. As for the wheels, we used Solarbotics RW2i Wheel (internal set screw), which are 28mm diameter wheels with a 3mm D-shaft, rubber tread, and 12.7mm width, which provides excellent traction on the competition surface.
+
+<table>
+  <tr>
+    <td width="33%" style="text-align: left;">
+      <img src="./images/readme/motor-encoder.jpg" alt="Motor bracket" width="100%">
+    </td>
+    <td width="33%" style="text-align: left; vertical-align: top;">
+      <img src="./images/readme/motor-bracket.jpg" alt="Motor bracket" width="100%">
+    </td>
+    <td width="33%" style="text-align: left; vertical-align: top;">
+      <img src="./images/readme/wheels.jpg" alt="wheels" width="100%">
+  </tr>
+</table>
 
 Where to buy the motor: https://www.pololu.com/product/3039
-
-To connect the motor's axle to a Lego-compatible axle, we created a custom 3D-printed adapter.
-
-![Gearmotor to axle - 3D Model](./images/readme/motor_to_axle_v2_drawing.png "Gearmotor to axle 3D piece")
-
-To secure the motor to the chassis, we designed a custom 3D-printed holder. The holder is split into two halves, which are then screwed together to ensure the motor remains in place.
-
-![Micro motor holder (half) - 3D Model](./images/readme/motor_mount_v3_drawing.png "Micro motor holder (half) 3D piece")
+Where to buy the encoder: https://www.pololu.com/product/4761
+Were to buy the motor bracket: https://www.pololu.com/product/1086
+Where to buy the wheels: https://www.tme.eu/ro/details/pololu-1127/accesorii-pentru-robotica-si-rc/pololu/?brutto=1&currency=RON&gad_campaignid=10591401989
 
 <br>
 
 **Potential Improvements**:
 - Consider upgrading to a brushless motor for higher efficiency and better thermal management.
-- Implement a more robust motor holder to prevent vibrations and ensure stability.
-- Explore alternative motor designs to enhance performance and reduce weight.
+- Explore batery solutions that can provide higher voltage to the motor for increased speed and torque.
 
 ### Motor Driver <a class="anchor" id="motor-driver-mechanical"></a>
 
@@ -251,27 +372,29 @@ Where to buy the motor driver: https://www.sparkfun.com/products/14450
 
 ## Steering <a class="anchor" id="steering-mechanical"></a>
 
-<!-- ![Powertrain - Angled Bottom View](./images/resources/bottom_angle.png "Powertrain - Angled Bottom View") -->
+![Steering System](./3d-models/renders/steering-system.png "Steering System")
 
-After experimenting with various steering mechanisms such as Ackermann steering and bell-crank steering, we assessed their advantages and drawbacks. Ultimately, we chose a straightforward steering system consisting of a parallelogram linkage. This decision was made because the alternative systems were either too large or too complex to implement effectively. Our selected mechanism is simple, light, and compact, providing a satisfactory steering angle. While it does not adhere to the Ackermann steering geometry, our tests showed that for our robot's small size and light weight, this omission was not critically significant.
+For this robot, we completely redesigned the steering system, moving away from the older parallelogram linkage and finally implementing a true Ackermann steering geometry. This upgrade allows the wheels to follow natural turning arcs, reducing slip during cornering and providing far more predictable handling at high speeds.
 
-As an upgrade to last year's design, we replaced the Lego-based steering system with a custom 3D-printed one. This change allowed us to reduce the robot's weight and size, while also enhancing its overall performance. The new steering system is more robust and offers greater flexibility in terms of design and implementation.
+A major structural improvement is that the pivot point is now located inside the wheel itself, rather than outside as in previous designs. This drastically increases steering rigidity, improves response time, and eliminates a large portion of the unwanted flex that affected earlier robots.
 
-The steering system is composed of 2 symmetrical wheel holders, that are conected togheter by a steering arm. The steering arm is conected to the servo motor. The joints between the wheel holders and the steering arm are made using steel rods.
+The joints use 2 mm steel rods, which provide excellent strength-to-weight ratio and near-zero play. However, we changed the geometry of the steering linkages:
+the distance between the steering pivot and the tie-rod mounting point is now significantly larger. This was done intentionally to reduce the influence of servo backlash and any free movement in the servo arms. The longer lever arm means that any tiny servo play translates into much smaller unwanted wheel rotation—greatly improving precision, especially when driving straight or making micro-adjustments.
 
-![Steering System](./images/readme/steering_system.png "Steering System")
+The steering knuckles, tie rod and steering column are all custom 3D-printed and tightly integrated into the chassis. The compact design reduces weight, while the enclosed mounting ensures consistent alignment and minimal lateral movement.
 
-![Steering Axle](./images/readme/steering_axle_v8_drawing.png "Steering Axle")
+Overall, this is our most precise, responsive, and stable steering system to date: lighter, smoother, and far more accurate than any previous generation.
 
-![Steering Hub](./images/readme/steering_hub_v5_drawing.png "Steering Hub")
+![Steering Knuckle](./images/readme/Steering_Knuckle.png "Steering Knuckle")
 
-![Servo Mount](./images/readme/servo_mount_v8_drawing.png "Servo Mount")
+![Tie Rod](./images/readme/Tie_Rod.png "Tie Rod")
+
+![Steering Column](./images/readme/Steering_Column.png "Steering Column")
 
 <br>
 
 **Potential Improvements**:
 - Make the steering angle wider to improve the robot's turning radius.
-- Implement Ackermann steering geometry for more precise and efficient turning.
 - Use ball-bearing joints in the linkage to reduce friction and increase durability.
 - Replace the 3D-printed components with lightweight aluminum for greater strength.
 
@@ -304,31 +427,44 @@ Where to buy the servo motor: https://cleste.ro/motor-servo-mg90s-180g.html
 
 ## Chassis <a class="anchor" id="chassis-mechanical"></a>
 
-Our previous attempts at designing a robot for the Future Engineers category were bulky and heavy, mostly lego based. This year, we aimed to create a more compact and lightweight robot. We achieved this by using a almost entirely 3D-printed chassis. Because of this, the fact that we tried to use as few components as possible, the robot is aproximately 50% lighter than last year's robot, while also being more compact.
+Over the years, our robots transitioned from bulky, Lego-dominated builds to increasingly custom and lightweight designs. This year, the chassis is now almost entirely 3D-printed, built with PLA-CF (carbon-fiber–reinforced PLA). This material choice drastically improves stiffness, reduces flex under load, and provides far better durability than traditional PLA, especially for thin steering components and structural mounts.
 
-Another improvement we made was the way of connecting 3D parts togheter. Instead of using lego or screws, we used snapping joints and pins.
+By redesigning every subsystem with minimalism in mind and reducing the number of individual parts, the robot became approximately 50% lighter than last year's version while also being significantly smaller and more compact. This size reduction improves handling, center of gravity, and serviceability.
 
-The chassis holds basically all of the components. Only the gearmotor and the gyroscope are attached to a separate piece that is then attached to the chassis. The back holds the differential; the middle part has a hole for the battery, on top of which the pcb is mounted using a 3d printed holder. The front holds the camera and the servo motor; the servo mount piece is attached to the chassis as well.
+The entire chassis is tightly integrated so that all drivetrain, steering, and electronic components sit securely with minimal backlash or unwanted movement.
 
-![Chassis](./images/readme/chasis_v5_drawing.png "Chassis")
+The chassis is organized into clear functional zones:
 
-The motor support is a separate piece that holds the motor and the gyroscope. It is attached to the chassis using snapping joints.
+**Rear Section:** Houses the new custom 3D-printed differential, tightly enclosed to reduce vibrations and friction.
 
-![Motor Support](./images/readme/motor_support_v7_drawing.png "Motor Support")
+**Central Section:** Contains a dedicated cutout for the Li-Po battery, above which the gyro is screwed in. The custom PCB is mounted above that, screwed into the chassis as well. The compact layout ensures short signal paths and extremely clean cable management.
+
+**Front Section:** Holds the servo motor, steering assembly, and the now movable camera bracket. The camera is mounted on an adjustable multi-axis bracket, allowing quick repositioning in seconds (a task that previously required major redesigns).
+
+Overall, this year's chassis reflects a philosophy of precision, compactness, and complete customization. Every feature, from material choice to structural layout, was designed to minimize weight, reduce friction, and maximize performance.
+
+![Chassis](./images/readme/Chassis.png "Chassis")
+
+The Camera Mount is designed to be adjustable along the horizontal axis. It screws into the chassis.
+
+![Camera Mount](./images/readme/Camera_Mount.png "Camera Mount")
+
+The Camera Bracket is designed to be adjustable along the vertical axis and to rotate. It screws into the Camera Mount. The OpenMV Camera lens is attached to the Camera Bracket using screws.
+
+![Camera Bracket](./images/readme/Camera_Bracket.png "Camera Bracket")
 
 <br>
 
 **Potential Improvements**:
 - Add vibration-damping materials to minimize disturbances during operation.
-- Test modular chassis designs for quicker assembly and maintenance.
-- Implement a more aerodynamic shape to reduce drag and improve speed.
-- Integrate a suspension system to enhance stability and shock absorption.
-- Explore alternative materials for the chassis to improve durability and performance.
+- Implement a more aerodynamic shape to reduce drag and improve speed (if applicable at its speed).
+- Integrate a suspension system to enhance stability when turning.
+- Explore the possibility of using cnc aluminium for the chassis for improved durability.
 - Add a protective cover to shield the components from dust and debris.
 
 # Power and Sense Management <a class="anchor" id="power-and-sense-management"></a>
 
-The robot's power and sense management system is composed of several components, including a Li-Po battery, an Arduino Nano ESP32, an IMU sensor, and an OpenMV Cam H7 R2. These components work together to provide the robot with the necessary power and sensory input to navigate its environment effectively.
+The robot's power and sense management system is composed of several components, including a Li-Po battery, an Arduino Nano ESP32, an IMU sensor, and an OpenMV Cam RT1062. These components work together to provide the robot with the necessary power and sensory input to navigate its environment effectively.
 
 ### Li-Po Battery <a class="anchor" id="li-po-battery"></a>
 
@@ -357,10 +493,7 @@ The battery is mounted using a custom 3D-printed holder, which is secured to the
 **Potential Improvements**:
 - Consider using a higher-capacity battery to extend runtime without increasing weight significantly.
 - Add a battery management system (BMS) for better charging and discharging safety.
-- Use quick-release connectors for easier battery replacement during competition.
 - Implement a battery level indicator to monitor power consumption and remaining charge.
-
-<!-- ![Battery Mount - 3D Model](./images/resources/BatteryMount.jpg "Battery Mount - 3D Model") -->
 
 ### Arduino Nano ESP32 <a class="anchor" id="arduino-nano-esp32"></a>
 
@@ -385,17 +518,10 @@ At previous competitions, we used many microcontrollers to manage the robot's va
 
 Where to buy the Arduino Nano ESP32: https://store.arduino.cc/products/nano-esp32
 
-The Arduino, mounted on a prototype board, is secured to the chassis with a 3D-printed holder. The pcb is attached to the chassis using screws.
-
-![PCB Mount](./images/readme/pcb_plaque_v5_drawing.png "PCB Mount")
-
 <br>
 
 **Potential Improvements**:
-- Design a custom PCB to integrate the Arduino Nano ESP32 with other components for a cleaner setup.
 - Test alternative microcontrollers with additional processing power or I/O pins for future scalability.
-- Optimize the mounting mechanism to allow easier access for debugging and repairs.
-- Implement a power management system to ensure stable voltage supply and prevent damage to the microcontroller.
 
 ### IMU <a class="anchor" id="imu-sensor"></a>
 
@@ -415,7 +541,7 @@ The Arduino, mounted on a prototype board, is secured to the chassis with a 3D-p
   </tr>
 </table>
 
-One importat aspect that helps the robot navigate is the inertial measurement unit (IMU). This sensor is based on BOSCH BMI088, which is a high-performance IMU with high vibration suppression. While the IMU measure the angular velocity and the acceleration of the robot, we only use the angular velocity to calculate the angle of the robot. The IMU is wired to the SDA and SCL pins on the arduino.
+One importat aspect that helps the robot navigate is the inertial measurement unit (IMU). This sensor is based on BOSCH BMI088, which is a high-performance IMU with high vibration suppression. While the IMU measure the angular velocity and the acceleration of the robot, we only use the angular velocity to calculate the angle of the robot. The IMU is wired to the SDA and SCL pins and a additional interrupt pin on the arduino.
 
 Where to buy the gyro sensor: https://www.seeedstudio.com/Grove-6-Axis-Accelerometer-Gyroscope-BMI088.html
 
@@ -451,7 +577,10 @@ Additionally, we implemented a real-time feedback system using wifi that display
 
 Together with the Arduino Nano ESP32, the camera delivers readings at approximately 60 frames per second.
 
+In order to have the lens separated from the camera body, we used the Camera Module Extension Cable
+
 Where to buy the OpenMV Cam RT1062: https://openmv.io/products/openmv-cam-rt
+Where to buy the Camera Module Extension Cable: https://openmv.io/products/camera-module-extension-cable
 
 <br>
 
@@ -487,25 +616,28 @@ Where to buy the 5V voltage regulator: https://ro.mouser.com/ProductDetail/STMic
 **Potential Improvements**:
 - Replace the linear voltage regulator with a switching regulator for better efficiency.
 - Add heat sinks to the regulator for improved thermal management.
-- Design a compact custom regulator circuit to save space.
 
 ### PCB design <a class="anchor" id="pcb"></a>
 
-The PCB was made on a prototype board. The board has a voltage regulator, the Arduino Nano ESP32, the motor driver, and connectors for the motor, the servo motor, the IMU, and the camera. The board is powered by the LiPo battery.
+The robot's PCB was designed using KiCad software. The PCB integrates the voltage regulator, headers for connecting the Arduino Nano ESP32, motor driver, and camera body directly on it. We used headers in order to make the connections modular and easy to disassemble if needed for maintenance or upgrades. The PCB also includes connectors for the battery, motor, servo, and IMU sensor.
 
-| PCB connections | PCB w/ regulator | PCB complete |
-| :--: | :--: | :--: |
-| <img src="./images/readme/pcb_1.jpg" alt="PCB connections" height="400"> | <img src="./images/readme/pcb_2.jpg" alt="PCB w/ regulator" height="400"> | <img src="./images/readme/pcb_3.jpg" alt="PCB complete" height="400"> |
+| PCB Rendered |
+| :--: |
+| <img src="./3d-models/renders/pcb.png" alt="PCB connections" height="400"> | 
+| Empty PCB |
+| <img src="./images/readme/pcb-empty.png" alt="PCB empty" height="400"> | 
+| PCB |
+| <img src="./images/readme/PCB.png" alt="PCB" width="100%"> |
+
+Where we bought the PCB: https://jlcpcb.com/
 
 <br>
 
 **Potential Improvements**:
-- Transition from prototype boards to fully custom PCBs for better durability and compactness.
-- Include dedicated connectors for easier and faster assembly.
 - Integrate debugging points on the PCB to simplify troubleshooting.
 
 ### Circuit diagram <a class="anchor" id="circuit-diagram"></a>
-![Circuit diagram](./electrical-diagram/circuit.png "Circuit diagram")
+![Circuit diagram](./build-diagrams/circuit.png "Circuit diagram")
 
 <br>
 
@@ -1444,7 +1576,7 @@ def is_parking_wall(blob):
 ## Step 0: Print the 3D parts <a class="anchor" id="3d-printing"></a>
 
 The part files can be found in the `3d-models` folder. We used and recommend the [BambuLab X1-Carbon](https://bambulab.com/en/x1) 3D printer, with the following settings:
- - Material: PLA
+ - Material: PLA-CF
  - Layer height: 0.2mm
  - Infill: 20%
  - Supports: Yes
@@ -1455,54 +1587,42 @@ The part files can be found in the `3d-models` folder. We used and recommend the
 
 1. Mount the `servo` on the `chassis` using 2 zip ties, make sure to cut the excess of the zip ties so it doesnt interfere with the steering arm.
 
-2. Attach the `steering axle` to the `servo` using a ⌀ 2mm metal rod, approximately 4-5mm in length.
+2. Attach the `steering column` to the `servo` using a ⌀ 2mm metal rod, approximately 4mm in length.
 
-3. Attach the `servo mount` to the `chassis` using the peg joints.
+3. Attach the `tie rod` to the `steering column` using a ⌀ 2mm metal rod, 10mm in length.
 
-4. Hold the `steering hubs` between the `chassis` and the `servo mount` and attach them with a ⌀ 2mm metal rod, approximately 20mm in length.
+4. Hold the `steering knuckles` between the `chassis` and the `tie rod` and attach them with two ⌀ 2mm metal rod, 10mm in length.
 
-5. Attach the `steering axle` to the `steering hubs` using two ⌀ 2mm metal rod, approximately 20mm in length.
-
-6. Inside the `steering hubs`, place a `Pin Connector Block`(<a href="https://www.bricklink.com/v2/catalog/catalogitem.page?P=39793&idColor=11#T=C&C=11">39793</a>) using pins. Put a `Axle 3L with Stop`(<a href="https://www.bricklink.com/v2/catalog/catalogitem.page?P=24316&idColor=11#T=C&C=11">24316</a>) inside the `Pin Connector Block`.
+6. Attach the `wheels` to the `steering knuckles` using 3mm d-shaft rods, approximately 15mm in length.
 
 ## Step 2: Assemble the powertrain <a class="anchor" id="powertrain-assembly"></a>
-1. Attach the `motor support` to the `chassis` using the peg joints.
+1. Attach the `motor` to the `chassis` using the `motor bracket` and *M3* screws.
 
-2. Attach the `motor` to the `motor support` using the `motor mounts` and *M3* screws.
+3. On the `motor`, attach the `24tooth spud gear`.
 
-3. On the `motor`, attach the `gearmotor to axle` and, on the other end, attach a lego `Axle 3L`.
-
-4. On the other end of the `Axle 3L`, attach a lego `Gear 20 Tooth Double Bevel`(<a href="https://www.bricklink.com/v2/catalog/catalogitem.page?P=32269#T=C">32269</a>)
-
-5. The `chasiss` has a place for a differential, attach a `Gear Differential 28 Tooth Bevel`(<a href="https://www.bricklink.com/v2/catalog/catalogitem.page?P=62821b&name=Technic,%20Gear%20Differential%2028%20Tooth%20Bevel%20-%20Inner%20Tabs%20with%20Closed%20Center&category=%5BTechnic,%20Gear%5D#T=C">62821b</a>) there, connected to the `Gear 20 Tooth Double Bevel`. The differential should have 3 `Gear 12 Tooth Bevel`(<a href="https://www.bricklink.com/v2/catalog/catalogitem.page?P=6589#T=C">6589</a>) inside it. The differential should be attached to the `chassis` using lego `Axles 7L`. Where the `Axles 7L` go, there should be a half stud gap in the `chassis`, place a `Bush 1/2`(<a href="https://www.bricklink.com/v2/catalog/catalogitem.page?P=4265c&idColor=3#T=C&C=3">4265c</a>) on each side. This will hold the wheels in place better.
+4. The differential should have 3 `Gear 12 Tooth Bevel`(<a href="https://www.bricklink.com/v2/catalog/catalogitem.page?P=6589#T=C">6589</a>) inside it. Hold the `differential` in the designated stop at the back of the chassis, attach it using lego `Axles 3L`. Insert the 2 `powertrain` parts on each `Axles 3L`. Insert a `15mm D-shaft rod` on each of the `powertrain` parts. Put the `wheels` on the `D-shaft rods`.
 
 ## Step 3: Attach the electronics <a class="anchor" id="electronics-attachment"></a> 
 
-1. Make the `pcb` using a `10x24 prototype board`. Using the `electrical diagram` and the pcb images, solder the connections, and headers and the `voltage regulator`. Place the `Arduino Nano ESP32` and `motor driver` on the pcb. The pcb should be attached to the `pcb plaque` using screws.
+1. Solder the components on the `pcb` according to the `electrical diagram`. We recommend using soldering sockets for the `Arduino` and the `motor driver` so that they can be easily removed if needed.
 
-2. Place the `battery` in under the `pcb` in the place provided in the `chassis`.
+2. Place the `battery` in the place provided in the `chassis`.
 
-3. Use a `6x12 prototype board` to make a holder for the `power switch` and `start button`, which need to be souldered. On the bottom of the board, soulder headers so that you can use father-father wires to connect to the arduino. We used a longer prototype board and cut it to the desired size. The holder should be attached to the `chassis` using double sided tape. You can also soulder a `led` to the board and connect it to the arduino for debuging purposes.
+3. Attach the `IMU` to the `chassis` using screws. Soulder a wire on the `IMU` on the `INT1` pin.
 
-4. Attach the `IMU` to the `motor support` using screws. Soulder a wire on the `IMU` on the `INT1` pin.
+4. Screw the `pcb` to the `chassis` using *M3* screws, using `10 mm spacers` in the front.
 
-5. Attach the `camera` to the `chassis` using screws. The `camera` should be slighly tilted up.
+5. Attach the `camera mount` to the `chassis` using screws.
+
+6. Attach the `camera bracket` to the `camera mount` using screws.
+
+5. Attach the `camera` to the `camera mount` using screws. Angle the `camera` slightly downwards so that it has a better view of the ground in front of the robot.
 
 6. Connect all the wires according to the `electrical diagram`. The `camera` should be connected to the `Arduino` using the `UART` protocol. The `IMU` should be connected to the `Arduino` using the `I2C` protocol. The wires can be store bought, or you can make them yourself. We custom-made our wires to achieve the exact lengths needed and combined certain connections into single Dupont connectors—for example, the camera power, camera UART, and IMU I2C wires are each grouped within individual Dupont connectors.
 
 7. (Optional) All the wires that are longer than needed can be wrapped arrond the `chassis` to make the robot look cleaner. You can use zip ties to secure the wires in place.
 
-## Step 4: Attach the wheels <a class="anchor" id="wheel-attachment"></a>
-
-1. Attach the front `wheels`(<a href="https://www.bricklink.com/v2/catalog/catalogitem.page?P=39367pb01&idColor=11#T=C&C=11">39367pb01</a>) to the `Axles 3L with Stop`. Use a `Bush 1/2` on each side of the `wheels` to hold them in place.
-
-2. Attach the back `wheels`(<a href="https://www.bricklink.com/v2/catalog/catalogitem.page?P=39367pb01&idColor=11#T=C&C=11">39367pb01</a>)  to the `Axles 7L`. Use a `Bush 1/2` on each side of the `wheels` to hold them in place. Also add spacers so the wheels are on the same level as the front ones.
-
-## Step 5: Final touches <a class="anchor" id="final-touches"></a>
-
-1. Place a *100g* weight on the back of the robot and one on the `servo mount` to enhance stability and increase grip. The weights should stay in place, but you can stabilize them with some duct tape.
-
-## Step 6: Upload the code <a class="anchor" id="code-upload"></a>
+## Step 4: Upload the code <a class="anchor" id="code-upload"></a>
 
 1. Connect the `Arduino` to your computer using a USB cable.
 
@@ -1510,9 +1630,9 @@ The part files can be found in the `3d-models` folder. We used and recommend the
 
 3. Upload the code to the `Arduino`.
 
-4. Connect the `OpenMV Cam H7` to the your computer using a USB cable.
+4. Connect the `OpenMV Cam` to the your computer using a USB cable.
 
-5. Open the `OpenMV IDE` and upload the code to the `OpenMV Cam H7`.
+5. Open the `OpenMV IDE` and upload the code to the `OpenMV Cam`.
 
 <br>
 
@@ -1522,42 +1642,35 @@ The part files can be found in the `3d-models` folder. We used and recommend the
 
 | Component                                   | Quantity | Cost per Unit (€) | Total (€) |
 |---------------------------------------------|----------|--------------------|-----------|
-| 50:1 Micro Metal Gearmotor HPCB 12V         | 1        | 21.00             | 21.00     |
+| 30:1 Micro Metal Gearmotor HPCB 12V         | 1        | 21.00             | 21.00     |
 | SparkFun Motor Driver - Dual TB6612FNG      | 1        | 13.00             | 13.00     |
 | Motor Servo MG90S                           | 1        | 4.00              | 4.00      |
 | LiPo Battery (450mAh, 7.4V, 30C)            | 1        | 9.00              | 9.00      |
 | Arduino Nano ESP32                          | 1        | 24.00             | 24.00     |
 | Grove - 6-Axis Accelerometer & Gyroscope    | 1        | 26.50             | 26.50     |
 | OpenMV Cam RT1062                           | 1        | 105.50            | 105.50    |
-| Prototype Boards                            | 2        | 5.00              | 10.00     |
+| PCB                                         | 5        | 2                 | 10.00     |
 | Metal Rods (2mm diameter, various lengths)  | 6        | 0.50              | 3.00      |
-| 100g Fishing Weights                        | 2        | 5.00              | 10.00     |
-| **LEGO Pieces:**                            |          |                    |           |
-| Pin Connector Block (39793)                 | 2        | 0.40              | 0.80      |
-| Axle 3L with Stop (24316)                   | 2        | 0.50              | 1.00      |
-| Gear 20 Tooth Double Bevel (32269)          | 1        | 1.20              | 1.20      |
-| Gear Differential 28 Tooth Bevel (62821b)   | 1        | 3.50              | 3.50      |
-| Gear 12 Tooth Bevel (6589)                  | 3        | 0.50              | 1.50      |
-| Axles 7L                                    | 2        | 0.60              | 1.20      |
-| Bush 1/2 (4265c)                            | 4        | 0.20              | 0.80      |
-| Wheels (39367pb01)                          | 4        | 2.00              | 8.00      |
+| Pololu      Wheels                          | 2        | 10.00             | 20.00      |
+| Lego Gear 12 Tooth Bevel (6589)             | 3        | 0.50              | 1.50      |
+| Lego Axles 3L                               | 2        | 0.60              | 1.20      |
 
-**Total for Components:** **€201.00**
+**Total for Components:** **€238.70**
 
 ---
 
 ## 3D Printing Costs <a class="anchor" id="3d-printing-costs"></a>
 
 - **Filament Used:**
-  - Prototypes: 1kg of PLA filament
-  - Final Parts: 80g of PLA-CF filament
+  - Prototypes: 500g of PLA filament
+  - Final Parts: 40g of PLA-CF filament
 - **PLA-CF Filament Cost:** €32.00 per 1kg
 - **PLA Filament Cost:** €25.00 per 1kg
 
 | Filament Use      | Weight (g) | Cost (€) |
 |--------------------|------------|----------|
-| Prototypes         | 1,000      | 25.00    |
-| Final Parts        | 80         | 2.56     |
+| Prototypes         | 500        | 12.50    |
+| Final Parts        | 40         | 1.28     |
 
 **Total for 3D Printing:** **€27.56**
 
@@ -1586,13 +1699,13 @@ The part files can be found in the `3d-models` folder. We used and recommend the
 
 | Category               | Total (€) |
 |------------------------|-----------|
-| Components             | 246.00    |
-| 3D Printing            | 27.56     |
+| Components             | 238.70    |
+| 3D Printing            | 13.78     |
 | Other Parts Tested     | 150.00    |
 | Tools and Equipment    | 1,193.00  |
 | Shipping Approximation | 100.00    |
 
-**Grand Total:** **€1,716.56**
+**Grand Total:** **€1,695.48**
 
 ---
 
@@ -1617,6 +1730,7 @@ To ensure the robot's ability to adapt to any course, we developed a randomizer 
 <li> LiPo Battery - https://hpi-racing.ro/29739-medium_default/acumulator-lipo-gens-ace-g-tech-soaring-450mah-74v-30c-2s1p-cu-jst-syp.jpg
 <li> Grove BMI088 Gyroscope - https://files.seeedstudio.com/wiki/Grove-6-Axis_Accelerometer-Gyroscope-BMI088/img/main.jpg
 <li> Linear voltage regulator - https://m.media-amazon.com/images/I/71gro1yTESL._SL1500_.jpg
+<li> Pololu Wheels - https://www.tme.eu/ro/details/pololu-1127/accesorii-pentru-robotica-si-rc/pololu/?brutto=1&currency=RON&gad_campaignid=10591401989
 
 <br>
 
